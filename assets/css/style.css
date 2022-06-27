@@ -58,9 +58,14 @@ p {
     background-size: cover;
     background-position: center;
 }
-/*consolidated .float left and .float right*/
-.float-left .float-right {
+
+.float-left {
     float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
     margin-right: 25px;
 }
 
